@@ -23,21 +23,21 @@ def recommend(movie):
         recommended_movies_posters.append(fetch_poster(movie_id))
     return recommended_movies, recommended_movies_posters
 
-def download_similarity():
-    file_id = "YOUR_FILE_ID"  # Replace with your Google Drive file ID
-    url = f"https://drive.google.com/uc?id={file_id}"
-    output = "similarity.pkl"
-    if not os.path.exists(output):  # Download only if the file doesn't exist
-        gdown.download(url, output, quiet=False)
-    return output
+# def download_similarity():
+#     file_id = "YOUR_FILE_ID"  # Replace with your Google Drive file ID
+#     url = f"https://drive.google.com/uc?id={file_id}"
+#     output = "similarity.pkl"
+#     if not os.path.exists(output):  # Download only if the file doesn't exist
+#         gdown.download(url, output, quiet=False)
+#     return output
 
 movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
 st.title("Movie Recommender System")
 
-similarity_path = download_similarity()
-similarity = pickle.load(open(similarity_path, 'rb'))
+# similarity_path = download_similarity()
+similarity = pickle.load(open("similarity.pkl", 'rb'))
 
 selected_movie_name = st.selectbox(
     "Movie Recommender",
