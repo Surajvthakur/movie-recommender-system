@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03692cf9-c625-47f9-b56b-ac332734a0c1" name="Changes" comment="Save current changes">
-      <change beforePath="$PROJECT_DIR$/movie_dict.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/movie_dict.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/movies.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similarity.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/similarity.pkl" afterDir="false" />
-    </list>
+    <list default="true" id="03692cf9-c625-47f9-b56b-ac332734a0c1" name="Changes" comment="Save current changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +75,7 @@
       <workItem from="1733332248248" duration="13657000" />
       <workItem from="1733380720453" duration="53000" />
       <workItem from="1733386041964" duration="651000" />
-      <workItem from="1733386701338" duration="2310000" />
+      <workItem from="1733386701338" duration="2625000" />
     </task>
     <task id="LOCAL-00001" summary="Save current changes">
       <option name="closed" value="true" />
